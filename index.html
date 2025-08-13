@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>🔥 My Hot Page</title>
+  <meta name="theme-color" content="#0b0b0b" />
+  <link rel="preload" as="image" href="sexyimage.gif" />
+  <style>
+    :root{
+      --glass-bg: rgba(255,255,255,0.12);
+      --glass-br: 18px;
+      --glass-blur: 10px;
+      --text: #fff;
+      --accent: #ff3b7a;
+      --shadow: rgba(0,0,0,0.45);
+      --scrim: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.65));
+      --tap: rgba(255,255,255,0.15);
+    }
+    *{box-sizing:border-box; -webkit-tap-highlight-color: transparent;}
+    html,body{height:100%;}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+      color:var(--text);
+      background: #000 url('sexyimage.gif') center center / cover no-repeat fixed;
+    }
+    .overlay{
+      position:fixed; inset:0;
+      background: var(--scrim);
+    }
+    .wrap{
+      position:relative;
+      min-height:100dvh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      padding: 20px;
+      text-align:center;
+    }
+    .stack{
+      width: min(500px, 95vw);
+      display:flex;
+      flex-direction:column;
+      gap: 16px;
+      z-index: 1;
+    }
+    .title{
+      font-size: clamp(28px, 6vw, 40px);
+      font-weight:800;
+      text-shadow: 0 6px 20px var(--shadow);
+      letter-spacing: .5px;
+    }
+    .subtitle{
+      font-size: clamp(14px, 3.5vw, 16px);
+      opacity:.9;
+    }
+    .btn{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding: 16px;
+      border-radius: var(--glass-br);
+      background: var(--glass-bg);
+      backdrop-filter: blur(var(--glass-blur)) saturate(120%);
+      -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(120%);
+      border: 1px solid rgba(255,255,255,0.18);
+      color: var(--text);
+      font-size: 18px;
+      font-weight: 800;
+      text-decoration:none;
+      box-shadow: 0 10px 28px var(--shadow);
+      transition: 0.3s ease;
+    }
+    .btn:hover{
+      transform: translateY(-4px) scale(1.03);
+      box-shadow: 0 14px 36px rgba(255,59,122,0.35);
+    }
+    .btn:active{
+      transform: scale(0.97);
+      background: var(--tap);
+    }
+    .btn.accent{
+      border-color: rgba(255,59,122,0.4);
+    }
+    .note{
+      margin-top: 10px;
+      font-size: 12px;
+      opacity:.8;
+    }
+    .sky{
+      position:fixed; inset:0;
+      overflow:hidden; z-index:0; pointer-events:none;
+    }
+    .float{
+      position:absolute;
+      width: 32px;
+      height: 32px;
+      opacity:0.85;
+      filter: drop-shadow(0 6px 10px rgba(0,0,0,.35));
+      animation: drift var(--dur) linear infinite;
+      transform: translate3d(0, 100vh, 0) rotate(var(--rot));
+    }
+    @keyframes drift{
+      0%   { transform: translate3d(var(--x), 105vh, 0) rotate(var(--rot)); }
+      100% { transform: translate3d(calc(var(--x) + var(--dx)), -10vh, 0) rotate(calc(var(--rot) + var(--drot))); }
+    }
+    .ad-container{
+      display:flex;
+      justify-content:center;
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay" aria-hidden="true"></div>
+  <div class="sky" aria-hidden="true" id="sky"></div>
+
+  <main class="wrap">
+    <div class="stack">
+
+      <!-- TOP AD -->
+      <div class="ad-container">
+        <script type="text/javascript">
+          atOptions = {
+            'key' : '151ef8a4c568af1205763aa58a9716e6',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+          };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/151ef8a4c568af1205763aa58a9716e6/invoke.js"></script>
+      </div>
+
+      <h1 class="title">💋 Hey, I’m Online</h1>
+      <p class="subtitle">Tap any button below — I’ll be there. 😈</p>
+
+      <a class="btn accent" href="https://www.profitableratecpm.com/p7q9p362m4?key=93bd1a043618c8db0519dc3b74d3a47d" target="_blank" rel="noopener">
+        <img src="phone.png" alt="" width="20" height="20"> Call Me
+      </a>
+      <a class="btn" href="https://www.profitableratecpm.com/p7q9p362m4?key=93bd1a043618c8db0519dc3b74d3a47d2" target="_blank" rel="noopener">
+        <img src="fire.png" alt="" width="20" height="20"> Porn&nbsp;Hub
+      </a>
+      <a class="btn" href="https://www.profitableratecpm.com/p7q9p362m4?key=93bd1a043618c8db0519dc3b74d3a47d3" target="_blank" rel="noopener">
+        <img src="video.png" alt="" width="20" height="20"> My&nbsp;Videos
+      </a>
+
+      <!-- BOTTOM AD -->
+      <div class="ad-container">
+        <script type="text/javascript">
+          atOptions = {
+            'key' : '151ef8a4c568af1205763aa58a9716e6',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+          };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/151ef8a4c568af1205763aa58a9716e6/invoke.js"></script>
+      </div>
+
+      <div class="note">🔞 Adults only • Be respectful • Enjoy responsibly</div>
+    </div>
+  </main>
+
+  <script>
+    (function(){
+      const SKY = document.getElementById('sky');
+      const EMOJIS = ['phone.png','video.png','video.png','fire.png'];
+      const COUNT = 18;
+      function rand(min, max){ return Math.random()*(max-min)+min; }
+      for(let i=0;i<COUNT;i++){
+        const e = document.createElement('img');
+        e.src = EMOJIS[Math.floor(Math.random()*EMOJIS.length)];
+        e.className = 'float';
+        e.style.setProperty('--x', rand(0, 100)+'vw');
+        e.style.setProperty('--dx', rand(-10, 10)+'vw');
+        e.style.setProperty('--rot', rand(-40, 40)+'deg');
+        e.style.setProperty('--drot', rand(-120, 120)+'deg');
+        e.style.setProperty('--dur', rand(10, 22)+'s');
+        e.style.animationDelay = (-1 * rand(0, 12)) + 's';
+        SKY.appendChild(e);
+      }
+    })();
+  </script>
+</body>
+</html>
